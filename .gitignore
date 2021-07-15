@@ -1,3 +1,18 @@
+
+bin/*
+lib/*
+include/*
+examples/*
+.DS_Store
+**/.vscode
+**/.venv
+**/*.gz
+**/rand*
+**/originalPoreSpace
+**/uniform*
+**/tests
+tmp*
+
 # Prerequisites
 *.d
 
