@@ -1,0 +1,25 @@
+{
+  "rock_simulation": {
+    "simulation_rock_nx": 1000,
+    "simulation_rock_ny": 1000,
+    "simulation_rock_file": "./simulation0_filled.raw"
+  },
+  "sediment_deposition": {
+    "chunked_subdomain_num_x": 20,
+    "chunked_subdomain_num_y": 20,
+    "crystal_probability": 0.11,
+    "min_grow_num": 1,
+    "max_grow_num": 3,
+    "sediment_bearing_rock_file": "./export/binary/sediment_bearing_domain.raw",
+    "lsmpqs_bin_dir": "/home/anoldfriend/Workspace/MyRepo/hbs_syntenic_images/syntheticImages/bin",
+    "seed": 10
+  },
+  "openfoam_file": {
+    "porosity_at_sediment_region": 0.7,
+    "porosity_at_rock_region": 0.01,
+    "openfoam_template_dir": "/home/anoldfriend/Workspace/MyRepo/hbs_syntenic_images/syntheticImages/tests/template",
+    "openfoam_file_output_dir": "./export/openfoam"
+  },
+  "work_dir": "./",
+  "is_clean": true
+}

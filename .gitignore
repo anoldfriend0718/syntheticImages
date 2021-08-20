@@ -1,4 +1,4 @@
-
+**/__pycache__
 bin/*
 lib/*
 include/*
@@ -10,7 +10,13 @@ examples/*
 **/rand*
 **/originalPoreSpace
 **/uniform*
-**/tests
+tests/*
+**/export
+**/images
+!/tests/template
+!/tests/sediment_rocks
+
+
 tmp*
 
 # Prerequisites
